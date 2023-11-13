@@ -1,0 +1,54 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("GUI BY LUASCRIPTS V 🌊","LeftAlt") -- change "L" to key that you want will hide gui
+
+--//tab
+local Tab = Window.NewTab("op hubs")
+
+
+--//section
+local Section = Tab.NewSection("HOME 🏡")
+
+--// Button
+local Button = Section.NewButton("main hub",function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Devkigz/LUASCRIPTSALTYOUTUBE/main/New%20UI%20update"))()
+end)
+
+
+--//Toggles
+local EnabledToggle = Section.NewToggle("Enabled Toggle",function(bool)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub",true))(); 
+end,true) -- "true" is the default value of toggle
+
+local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub",true))(); 
+end,false) -- "false" is the default value of toggle
+
+local SliderPrecise = section.NewSlider("Slider precise",0,100,true,function(value)
+
+end,25)
+local SliderNotPrecise = section.NewSlider("Slider not precise",0,100,false,function(value)
+
+end,75)
+
+--//tab
+local Tab = Window.NewTab("BLADE BALL THING")
+
+
+--//section
+local Section = Tab.NewSection("BDOL HUB?!?"")
+
+--// Button
+local Button = Section.NewButton("NOTBWDOL",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
+
+
+--//Toggles
+local EnabledToggle = Section.NewToggle("Enabled Toggle",function(bool)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end,true) -- "true" is the default value of toggle
+
+local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end,false) -- "false" is the default value of toggle
